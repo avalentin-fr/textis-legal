@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textis — Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #fafaf9;
+      --fg: #1c1917;
+      --accent: #6d28d9;
+      --muted: #78716c;
+      --border: #e7e5e4;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1c1917;
+        --fg: #fafaf9;
+        --accent: #a78bfa;
+        --muted: #a8a29e;
+        --border: #44403c;
+        --card: #292524;
+      }
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 1.5rem;
+    }
+    .lang-switch a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.4rem 0.8rem;
+      border: 1px solid var(--accent);
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    .lang-switch a:hover { background: var(--accent); color: white; }
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+      color: var(--accent);
+    }
+    .effective-date {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+    p, li { margin-bottom: 0.6rem; }
+    ul { padding-left: 1.5rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+    th { background: var(--card); font-weight: 600; }
+    .contact-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
+    }
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="lang-switch">
+      <a href="privacy-policy-fr.html">Version fran&ccedil;aise</a>
+    </div>
+
+    <h1>Privacy Policy</h1>
+    <p class="effective-date">Effective date: March 12, 2026</p>
+
+    <p>
+      Textis ("we", "our", "the app") is a word game available on iOS and Android.
+      We are committed to protecting your privacy. This policy explains what data
+      the app collects, why, and how it is used.
+    </p>
+
+    <h2>1. Data We Collect</h2>
+
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Purpose</th><th>Storage</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Device identifier (random ID)</td>
+          <td>Identify your player profile without requiring an account</td>
+          <td>Device (MMKV) &amp; server (Convex)</td>
+        </tr>
+        <tr>
+          <td>Pseudo (nickname)</td>
+          <td>Display your name to opponents in multiplayer</td>
+          <td>Device &amp; server</td>
+        </tr>
+        <tr>
+          <td>Push notification token</td>
+          <td>Send game invitations and turn notifications (opt-in)</td>
+          <td>Server</td>
+        </tr>
+        <tr>
+          <td>Game statistics &amp; history</td>
+          <td>Show your scores, win/loss record, and past games</td>
+          <td>Device &amp; server</td>
+        </tr>
+        <tr>
+          <td>Game preferences</td>
+          <td>Remember your settings (sound, haptics, etc.)</td>
+          <td>Device &amp; server</td>
+        </tr>
+        <tr>
+          <td>Support requests</td>
+          <td>Respond to your messages</td>
+          <td>Server</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      We do <strong>not</strong> collect your name, email address, phone number,
+      location, contacts, photos, or any other personal information. We do not
+      require you to create an account.
+    </p>
+
+    <h2>2. Advertising</h2>
+    <p>
+      Textis displays ads provided by <strong>Google AdMob</strong>. AdMob may
+      collect and use advertising identifiers (IDFA on iOS, GAID on Android) and
+      device information to serve personalized or non-personalized ads, depending
+      on your consent choices.
+    </p>
+    <p>
+      On iOS, the app uses Apple's <strong>App Tracking Transparency (ATT)</strong>
+      framework to request your permission before accessing the IDFA. On all
+      platforms, a <strong>consent form (UMP/GDPR)</strong> is presented so you can
+      choose whether to allow personalized advertising.
+    </p>
+    <p>
+      For more details on how Google handles data, see the
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+    </p>
+
+    <h2>3. Third-Party Services</h2>
+    <ul>
+      <li><strong>Google AdMob</strong> — advertising (see section 2)</li>
+      <li><strong>Convex</strong> — cloud database for multiplayer game data
+        (<a href="https://www.convex.dev/privacy" target="_blank" rel="noopener">Convex Privacy Policy</a>)</li>
+    </ul>
+    <p>We do not use analytics, crash reporting, or any other third-party tracking services.</p>
+
+    <h2>4. Data Sharing</h2>
+    <p>
+      We do not sell, trade, or share your data with third parties, except as
+      described above (AdMob for advertising, Convex for game data storage).
+    </p>
+
+    <h2>5. Data Retention</h2>
+    <p>
+      Your game data is retained on our servers as long as your player profile
+      exists. Since profiles are identified by a device ID with no account, you
+      can effectively reset your data by reinstalling the app.
+    </p>
+
+    <h2>6. Children's Privacy</h2>
+    <p>
+      Textis is a general-audience app. We do not knowingly collect personal
+      information from children under 13. If you believe a child has provided us
+      with data, please contact us and we will delete it promptly.
+    </p>
+
+    <h2>7. Your Rights</h2>
+    <p>You can at any time:</p>
+    <ul>
+      <li>Withdraw ad tracking consent via your device settings</li>
+      <li>Request deletion of your server-side data by contacting us</li>
+      <li>Delete all local data by uninstalling the app</li>
+    </ul>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>
+      We may update this policy from time to time. Changes will be posted on this
+      page with an updated effective date.
+    </p>
+
+    <h2>9. Contact</h2>
+    <div class="contact-box">
+      <p>For any privacy-related questions or data deletion requests:</p>
+      <p><strong>Email:</strong> contact@rocketdev.fr</p>
+    </div>
+
+    <footer>
+      &copy; 2026 Textis. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
